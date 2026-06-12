@@ -1,1 +1,0 @@
-# Atividade-de-segunda-etapa-logica-de-programacao
