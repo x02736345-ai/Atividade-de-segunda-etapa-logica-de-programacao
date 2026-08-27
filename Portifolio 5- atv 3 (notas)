@@ -1,0 +1,36 @@
+programa
+{
+funcao inicio()
+{
+   cadeia v[3]
+   real m[3][2]
+   real media[3]
+   para (inteiro i = 0; i < 3; i++)
+    {
+     escreva("Nome ", i + 1, ": ")
+     leia(v[i])
+    }
+   para (inteiro a = 0; a < 3; a++)
+   {
+   para (inteiro b = 0; b < 2; b++)
+   {
+    escreva("Notas de aluno ",v[a],": ")
+    leia(m[a][b])
+   }
+   }
+   para (inteiro a=0 ; a<3 ; a++)
+   {
+   real soma=0
+   para (inteiro b=0 ; b<2 ; b++)
+   {
+   soma=soma+m[a][b]
+   media[a] = soma/2
+   }
+   }
+    para (inteiro i = 0; i <3 ; i++)
+    {
+     escreva(v[i],"\n")
+     escreva(media[i],"\n")
+    }
+    } 
+}
