@@ -1,0 +1,16 @@
+programa
+{
+funcao inicio()
+{
+inteiro v[5]
+para (inteiro i = 0; i < 5; i++)
+{
+escreva("Valor ", i + 1, ": ")
+leia(v[i])
+}
+para (inteiro i = 0; i < 1; i++)
+{
+escreva(v[4] , v[3] , v[2] , v[1] , v[0])
+  }
+}
+}
