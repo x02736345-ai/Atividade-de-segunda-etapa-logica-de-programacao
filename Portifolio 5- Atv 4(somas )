@@ -1,0 +1,19 @@
+programa
+{
+funcao inicio()
+{
+inteiro m[3][3]
+inteiro soma =0
+para (inteiro i = 0; i < 3; i++)
+{
+para (inteiro j = 0; j < 3; j++)
+{
+escreva("[", i, "][", j, "]: ")
+leia(m[i][j])
+soma=soma+m[i][j]
+}
+}
+ 
+escreva("Soma: ",soma, "\n")
+}
+}
